@@ -1,0 +1,27 @@
+
+        <h1>Hello {{name}}. Welcome to User Governance Page!</h1>
+
+        <form method="POST" action="/thevalidate">
+            <div class="field">
+                <div class="control">
+                    <input class="input is-large" type="text" name="user2add" placeholder="User to Add" autofocus="">
+                </div>
+            </div>
+
+            <div class="field">
+                <div class="control">
+                    <input class="input is-large" type="text" name="primarygrp" placeholder="Primary Group">
+                </div>
+            </div>
+            <div class="field">
+                <div class="control">
+                    <input class="input is-large" type="text" name="secondarygrp" placeholder="Secondary Groups seperated by comma">
+                </div>
+            </div>
+            <div class="field">
+                <div class="control">
+                    <input class="input is-large" type="text" name="servers" placeholder="Servers seperated by comma">
+                </div>
+            </div>
+            <button class="button is-block is-info is-large is-fullwidth">Submit</button>
+        </form>
